@@ -15,11 +15,9 @@ public class ListToArrayStream {
         names.add("Robert");  
         names.add("Mery");
         
-        String[] namesArray  = names.stream().toArray(String[] :: new);
+       // String[] namesArray  = names.stream().toArray(String[] :: new);
         
-        for(String x :namesArray) {
-        	System.out.println(x);
-        }
+       
 	}
 
 }
